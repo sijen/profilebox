@@ -1,75 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .container{
-            position: relative;
-            background-color:blue;
-            background-repeat: no-repeat;
-            height: 300px;
-            width:300px;
-            margin-top: 10em;
-            margin-left: 30em;
-        }
-        .container:hover .outer{
-            display:none;
-            height:0px;
-        }
-        .container:hover .inner{
-            display: block;
-            height: 50px;
-        }
-        .outer{
-            position: absolute;
-            display: block;
-            bottom: 0;
-            background-color: rgba(240, 248, 255, 0.37);
-            height: 50px;
-            width: 100%;
-            text-align: center;
-            color:white;
-            z-index: 1;
-            transition: height 2s ease;
-        }
-        .inner{
-            position: absolute;
-            display: none;
-            color:white;
-            top:40px;
-            left:0px;
-            height: 0px;
-            width: 100%;
-            z-index: 1;
-            transition: height 2s ease-in-out;
-        }
-        .inner>img{
-            margin-bottom: 10px;
-        }
-        .inner>img:hover{
-            height: 30px;
-            width: 30px;
-            cursor:pointer;
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sijen Dangol</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body class="body-center">
     <div class="container">
-        <img src="profil-linkedin-300x300.jpg" alt="no-image">
-        <div class="outer">
-            helllo i am developer
-        </div>
-        <div class="inner">
-            <img src="f_logo_RGB-Hex-Blue_512.png" height="20px" width="20px"><br>
-            <img src="f_logo_RGB-Hex-Blue_512.png" height="20px" width="20px"><br>
-            <img src="f_logo_RGB-Hex-Blue_512.png" height="20px" width="20px"><br>
-            <img src="f_logo_RGB-Hex-Blue_512.png" height="20px" width="20px"><br>
-            <img src="f_logo_RGB-Hex-Blue_512.png" height="20px" width="20px">
-        </div>
+      <img src="profil-linkedin-300x300.jpg" alt="no-image" />
+      <div class="outer">
+        helllo i am developer
+      </div>
+      <div class="inner">
+        <img
+          src="f_logo_RGB-Hex-Blue_512.png"
+          height="20px"
+          width="20px"
+        /><br />
+        <img
+          src="f_logo_RGB-Hex-Blue_512.png"
+          height="20px"
+          width="20px"
+        /><br />
+        <img
+          src="f_logo_RGB-Hex-Blue_512.png"
+          height="20px"
+          width="20px"
+        /><br />
+        <img
+          src="f_logo_RGB-Hex-Blue_512.png"
+          height="20px"
+          width="20px"
+        /><br />
+        <img src="f_logo_RGB-Hex-Blue_512.png" height="20px" width="20px" />
+      </div>
     </div>
-
-
-</body>
+  </body>
 </html>
